@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.logisticinterface LogisticRepository {    suspend fun get(): Logistic?    suspend fun save(logistic: Logistic)    suspend fun delete()}

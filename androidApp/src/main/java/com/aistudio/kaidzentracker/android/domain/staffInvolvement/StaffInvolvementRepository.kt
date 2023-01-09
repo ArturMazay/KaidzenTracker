@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.staffInvolvementinterface StaffInvolvementRepository {    suspend fun get(): StaffInvolvement?    suspend fun save(staffInvolvement: StaffInvolvement)    suspend fun delete()}

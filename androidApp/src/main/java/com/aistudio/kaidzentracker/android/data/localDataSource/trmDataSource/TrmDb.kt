@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.trmDataSourceimport androidx.room.Databaseimport androidx.room.RoomDatabase@Database(entities = [TrmEntity::class], version = 111)abstract class TrmDb : RoomDatabase() {    abstract fun getTrmDao(): TrmDao}

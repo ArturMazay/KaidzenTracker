@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.mappingDataSourceimport androidx.room.Databaseimport androidx.room.RoomDatabase@Database(entities = [MappingEntity::class], version = 111)abstract class MappingDb : RoomDatabase() {    abstract fun getDao(): MappingDao}

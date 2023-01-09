@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.staffTrainigDataSourceinterface StaffTrainingDataSource {    suspend fun insertLocalSource(staffTrainingEntity: StaffTrainingEntity)    suspend fun getLocalSource(): StaffTrainingEntity?    suspend fun deleteLocalSource()}

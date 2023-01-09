@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.fiveSDataSourceinterface FiveSDataSource {    suspend fun insertLocalSource(fiveSEntity: FiveSEntity)    suspend fun getLocalSource(): FiveSEntity?    suspend fun deleteLocalSource()}

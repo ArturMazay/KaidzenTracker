@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.interactorinterface KaidzenInteractor {  suspend fun calculate()}

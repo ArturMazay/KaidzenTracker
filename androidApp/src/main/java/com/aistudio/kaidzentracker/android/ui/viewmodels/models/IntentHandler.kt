@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.ui.viewmodels.modelsinterface IntentHandler<T> {    fun getIntent(intent: T)}

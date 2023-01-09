@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.smedDataSourceinterface SmedDataSource {    suspend fun insertLocalSource(smedEntity: SmedEntity)    suspend fun getLocalSource(): SmedEntity?    suspend fun deleteLocalSource()}

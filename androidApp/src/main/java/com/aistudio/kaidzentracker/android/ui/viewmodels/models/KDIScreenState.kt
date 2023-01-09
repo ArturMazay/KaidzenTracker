@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.ui.viewmodels.modelsdata class KDIScreenState(    val fiveSResult: Int = 0)

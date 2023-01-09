@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.staffInvolvementDataSourceimport androidx.room.Databaseimport androidx.room.RoomDatabase@Database(entities = [StaffInvolvementEntity::class], version = 111)abstract class StaffInvolvementDb : RoomDatabase() {    abstract fun getDao(): StaffInvolvementDao}

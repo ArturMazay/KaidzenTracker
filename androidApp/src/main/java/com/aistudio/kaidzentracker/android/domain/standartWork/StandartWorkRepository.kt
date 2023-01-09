@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.standartWorkinterface StandartWorkRepository {    suspend fun get(): StandartWork?    suspend fun save(standartWork: StandartWork)    suspend fun delete()}

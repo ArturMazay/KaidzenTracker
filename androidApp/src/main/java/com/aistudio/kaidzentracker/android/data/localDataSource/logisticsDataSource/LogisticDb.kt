@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.logisticsDataSourceimport androidx.room.Databaseimport androidx.room.RoomDatabase@Database(entities = [LogisticEntity::class], version = 111)abstract class LogisticDb : RoomDatabase() {    abstract fun getDao(): LogisticDao}

@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.standartWorkDataSourceinterface StandartWorkDataSource {    suspend fun insertLocalSource(standartWorkEntity: StandartWorkEntity)    suspend fun getLocalSource(): StandartWorkEntity?    suspend fun deleteLocalSource()}

@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.flowinterface FlowRepository {    suspend fun get(): Flow?    suspend fun save(flow: Flow)    suspend fun delete()}

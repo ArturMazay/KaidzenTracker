@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.fiveSinterface FiveSRepository {    suspend fun get(): FiveS    suspend fun save(fiveS: FiveS)    suspend fun delete()}

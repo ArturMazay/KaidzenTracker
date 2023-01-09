@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.mappingDataSourceinterface MappingDataSource {    suspend fun insertLocalSource(mappingEntity: MappingEntity)    suspend fun getLocalSource(): MappingEntity?    suspend fun deleteLocalSource()}

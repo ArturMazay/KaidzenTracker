@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.trmimport com.aistudio.kaidzentracker.android.domain.smed.Smedinterface TrmRepository {    suspend fun get(): Trm?    suspend fun save(trm: Trm)    suspend fun delete()}

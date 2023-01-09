@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.flowDataSourceinterface FlowDataSource {    suspend fun insertLocalSource(flowEntity: FlowEntity)    suspend fun getLocalSource(): FlowEntity?    suspend fun deleteLocalSource()}

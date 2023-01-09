@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.logisticsDataSourceinterface LogisticDataSource {    suspend fun insertLocalSource(logisticEntity: LogisticEntity)    suspend fun getLocalSource(): LogisticEntity?    suspend fun deleteLocalSource()}

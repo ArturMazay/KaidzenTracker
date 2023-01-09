@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.domain.smedinterface SmedRepository {    suspend fun get(): Smed?    suspend fun save(smed: Smed)    suspend fun delete()}

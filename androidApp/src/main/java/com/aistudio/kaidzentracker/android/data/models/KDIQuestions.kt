@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.modelsdata class KDIQuestions(    val indexQuestions: String,    val questions: String,    val result: Double,    val route: String)

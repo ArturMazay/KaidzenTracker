@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.standartWorkDataSourceimport androidx.room.Databaseimport androidx.room.RoomDatabase@Database(entities = [StandartWorkEntity::class], version = 111)abstract class StandartWorkDb : RoomDatabase() {    abstract fun getDao(): StandartWorkDao}

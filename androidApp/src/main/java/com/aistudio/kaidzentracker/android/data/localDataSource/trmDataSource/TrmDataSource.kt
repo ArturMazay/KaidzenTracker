@@ -1,0 +1,1 @@
+package com.aistudio.kaidzentracker.android.data.localDataSource.trmDataSourceinterface TrmDataSource {    suspend fun insertLocalSource(trmEntity: TrmEntity)    suspend fun getLocalSource(): TrmEntity?    suspend fun deleteLocalSource()}
