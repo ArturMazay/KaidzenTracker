@@ -1,0 +1,1 @@
+import androidx.compose.ui.main.defaultUIKitMainimport androidx.compose.ui.window.Applicationimport com.aistudio.kaidzentracker.Greetingfun main() {    defaultUIKitMain("KaidzenTracker", Application("KaidzenTracker") {        Greeting()    })}

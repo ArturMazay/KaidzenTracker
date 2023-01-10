@@ -1,9 +1,9 @@
 package com.aistudio.kaidzentracker
 
-class Greeting {
-    private val platform: Platform = getPlatform()
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
 
-    fun greet(): String {
-        return "Hello, ${platform.name}!"
-    }
+@Composable
+fun Greeting() {
+  Text("KKKPLatform")
 }
